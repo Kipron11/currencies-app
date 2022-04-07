@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="conteiner" style="height: 150px;">
+
+        <div id="toggle">
+            <i class="indicator"></i>
+        </div>
+
+
+    </div>
+    <div class="conteiner ">
+
+        <div class="form form__login">
+            <div class="form__content">
+                <div>
+                    <label for="email"><b>Email</b></label>
+                    <br>
+                    <input class="input input__login" name="email" type="email"
+                        pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="Enter Email here ..."
+                        id="email" required="required">
+                </div>
+                <div>
+                    <label for="pass"><b>Password</b></label>
+                    <br>
+                    <input class="input input__login" type="password" id="pass" name="pass"
+                        placeholder="Enter Password here ... (8 characters minimum)" minlength="8" required="required">
+                </div>
+                <div class="switch">
+                    <input type="checkbox"> <label for="checkbox">Subscribe to News</label>
+                </div>
+                <div>
+                    <button class="btn btn__signin" type="submit">Sign In</button>
+                </div>
+                <div>
+                    <a href="#" class="center">Forgot your password?</a>
+                </div>
+                <div>
+                    <hr>
+                </div>
+
+                <div>
+                    <p class="center ">or continue with</p>
+                    <br>
+                    <div style="display: flex; justify-content:space-around;">
+                        <button class="btn btn__link">gugle</button>
+                        <button class="btn btn__link">jopabook</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="conteiner">
+        <div class="form form__contactus">
+            <div class="form__content">
+                <h1>Contact Us</h1>
+                <div class="form_flex">
+                    <div class="flex-input">
+                        <div>
+                            <label for="input"><b>Name</b></label>
+                            <br>
+                            <input class="input" placeholder="Donec fringilla ante et interdum." required="required">
+                        </div>
+
+                        <div>
+                            <label><b>Email</b></label>
+                            <br>
+                            <input class="input input__login" name="email" type="email"
+                                pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                                placeholder="Enter Email here ..." id="email" required="required">
+                        </div>
+                    </div>
+                    <div class="flex-input">
+                        <div>
+                            <label><b>Mobile</b></label>
+                            <br>
+                            <input type="number" class="input" placeholder="+371..." maxlength="8" required="required">
+                        </div>
+
+                        <div>
+                            <label><b>Date</b></label>
+                            <br>
+                            <input type="date" class="input" placeholder="Donec fringilla ante et interdum."
+                                required="required">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="">
+                    <input type="checkbox"> Subscribe to News
+                </div>
+                <div>
+                    <label for="textarea"><b>Message</b></label>
+                    <br>
+                    <textarea required class="textarea" placeholder="Enter Message" required="required"></textarea>
+                </div>
+                <div class="contactus__button">
+                    <button class="btn btn__submit  " type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="conteiner">
+        <div class="form form__contactus2">
+
+            <div class="form__info">
+                <div class="form__info__text">
+                    <h3>Contact information</h3>
+                    <br>
+                    <span>Here’s some additional support text to help set user expectations. </span>
+                    <br>
+                    <span>228-667-1337 </span>
+                    <br>
+                    <span>supupt@gay.com</span>
+                </div>
+            </div>
+
+            <div class="form__content ">
+                <h1>Contact Us</h1>
+                <div class="form_flex">
+                    <div class="flex-input">
+                        <div>
+                            <label><b>---</b></label>
+                            <br>
+                            <input class="input" placeholder="Donec fringilla ante et interdum.">
+                        </div>
+
+                        <div>
+                            <label><b>---</b></label>
+                            <br>
+                            <input class="input" placeholder="Donec fringilla ante et interdum.">
+                        </div>
+                    </div>
+                    <div class="flex-input">
+                        <div>
+                            <label><b>---</b></label>
+                            <br>
+                            <input class="input" placeholder="Donec fringilla ante et interdum.">
+                        </div>
+
+                        <div>
+                            <label><b>---</b></label>
+                            <br>
+                            <input class="input" placeholder="Donec fringilla ante et interdum.">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <label><b>Select Your Path </b></label>
+                    <br>
+                    <select type="select" class="input select">
+                        <option disabled selected>Are you in APE SQUAD?</option>
+                        <option>*Monkey noiZZZes*</option>
+                        <option>Yes</option>
+                        <option disabled>BiG aPe BrOtHeR iS wAtChInG yOu</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label><b>Message</b></label>
+                    <br>
+                    <textarea required class="textarea" placeholder="Enter Message"></textarea>
+                </div>
+                <div class="contactus2__button">
+                    <button class="btn btn__submit  " type="submit">Submit</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="conteiner">
+        <div class="form form__checkout">
+            <div class="form__content">
+                <h1>Checkout</h1>
+                <div class="form__content--order--delivery">
+                    <div>
+                        <h2>Your Order</h2>
+                        <div>
+                            <h4>Eggshell Plant Pot</h4>
+                        </div>
+                        <span>Size: Medium</span>
+                        <span>Qty: 1</span>
+                        <span>$25.00</span>
+                    </div>
+                    <div>
+                        <h3>Delivery Details</h3>
+                        <div class="form__content--order--delivery">
+                            <div>
+                                <h4>Adam Sandler</h4>
+                                <span>1234 Fake St.</span>
+                                <span>Sarmas, WI 23456</span>
+                            </div>
+
+                            <div>
+                                <h4>Shipping Speed</h4>
+                                <span>$7.00 No Rush Shipping</span>
+                                <span>Arrives by 1/16/22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Payment Method</h2>
+                    <div class="form__content--order--delivery">
+                        <div>
+                            <label><b>Input</b></label>
+                            <br>
+                            <input class="input input1">
+                        </div>
+                        <div class="form__content--order--delivery">
+                            <div>
+                                <label><b>Input</b></label>
+                                <br>
+                                <input class="input input2">
+                            </div>
+                            <div>
+                                <label><b>Input</b></label>
+                                <br>
+                                <input class="input input2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout__button">
+                    <button class="btn btn__submit">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="/scripts.js"></script>
+
+</html>

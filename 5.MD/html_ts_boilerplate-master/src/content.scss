@@ -1,0 +1,91 @@
+.content-button {
+    width: 100%;
+    max-width: 208px;
+    height: 47px;
+    background: #FF6464;
+    border-radius: 4px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #E5E5E5;
+    box-shadow: 4px 4px 4px 10px rgb(235, 246, 250, 0.3);
+    border: 0;
+    cursor: pointer;
+}
+
+.content-button:hover {
+    color: #ffffff;
+    background: #ff7b7b;
+    box-shadow: 4px 4px 4px 10px rgb(235, 246, 250, 0.5);
+    transition: 0.5s;
+}
+
+.content-button:active {
+    transition: 0.2s;
+    color: #aaaaaa;
+    background: #fa4646;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.content {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 26px;
+    color: #21243D;
+    box-shadow: 4px 4px 4px 10px rgb(235, 246, 250, 0.3);
+}
+
+.content-span {
+    font-size: 20px;
+}
+
+.content-span-data {
+    width: 75px;
+    height: 25px;
+    background: #142850;
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.content-h1,
+.content-h3,
+.works-h3,
+.posts-h3 {
+    color: #21243D;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 25px;
+}
+
+.content-h1 {
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.footer__content {
+    a {
+        color: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        margin-left: 15px;
+        margin-right: 15px;
+        align-items: center;
+    }
+
+    text-align: center;
+}

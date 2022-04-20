@@ -1,0 +1,49 @@
+.logo__image {
+  margin-top: 60px;
+}
+
+.number__image {
+  max-width: 32px;
+  width: 100%;
+  max-height: 40px;
+  height: 100%;
+  float: left;
+  margin-left: 38px;
+}
+
+.content-library__image {
+  max-width: 450px;
+  width: 100%;
+  max-height: 285px;
+  height: 100%;
+  border-radius: 25px;
+  margin-bottom: 16px;
+}
+
+.customers__image {
+  margin-top: 194px;
+  max-height: 502px;
+  height: 100%;
+  margin-left: 150px;
+}
+
+.upcoming-preview__image {
+  padding-top: 20px;
+  margin-left: 17px;
+}
+
+.latest__picture {
+  background: url("assets/images/image1.png") 60% 90% no-repeat;
+  max-width: 250px;
+  height: 180px;
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-size: contain;
+}
+
+.latest__svg {
+  background: url("assets/images/image1.png") 60% 90% no-repeat;
+  background-size: contain;
+}

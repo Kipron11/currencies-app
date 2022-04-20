@@ -1,0 +1,131 @@
+.number-btn {
+  color: white;
+  margin-top: 63px;
+  width: 334px;
+  max-height: 80px;
+  height: 100%;
+  background: #B25A59;
+  border-radius: 80px;
+  border: none;
+
+  &:hover {
+    cursor: pointer;
+    background: lightpink;
+    transition: 0.5s;
+  }
+}
+
+.btn__text {
+  float: right;
+  padding-right: 39px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  padding-top: 5px;
+}
+
+.offer-cont__btn--1 {
+  font-family: Poppins, sans-serif;
+  max-width: 334px;
+  width: 100%;
+  height: 80px;
+  background: #B25A59;
+  border-radius: 80px;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+    background: lightpink;
+    transition: 0.5s;
+  }
+}
+
+.offer-cont__btn--2 {
+  margin-left: 26px;
+  margin-right: 32px;
+  max-width: 80px;
+  width: 100%;
+  height: 80px;
+  border-radius: 500px;
+  border: none;
+  box-shadow: 2px 20px 60px rgba(61, 155, 185, 0.1);
+
+  &:hover {
+    background: lightgreen;
+    cursor: pointer;
+  }
+}
+
+.btn__image {
+  margin-left: 27px;
+}
+
+.content-library__btn {
+  border: none;
+  font-size: 40px;
+  font-weight: 600;
+  color: #666666;
+  background: none;
+  margin-bottom: 100px;
+  margin-top: 60px;
+
+  &:hover {
+    cursor: pointer;
+    color: black;
+  }
+}
+
+.content-sub__btn {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  max-width: 283px;
+  width: 100%;
+  max-height: 80px;
+  height: 100%;
+  margin-bottom: 123px;
+  border-radius: 80px;
+
+  &:hover {
+    cursor: pointer;
+    background: lightblue;
+    border: lightblue;
+  }
+}
+
+.footer__btn {
+  margin-left: 15px;
+  max-width: 140px;
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(105.5deg, #EE5060 19.57%, #B25A59 78.85%);
+  border-radius: 60px;
+  color: white;
+  border: none;
+
+  &:hover {
+    background: lightpink;
+    cursor: pointer;
+  }
+}
+
+.upcoming__button {
+  max-width: 180px;
+  max-height: 40px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background: #B25A59;
+  border: none;
+  border-radius: 80px;
+  margin-top: 19px;
+
+  &:hover {
+    cursor: pointer;
+    background: lightpink;
+  }
+}

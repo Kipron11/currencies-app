@@ -1,0 +1,28 @@
+.toast {
+  display: none;
+  position: absolute;
+  background-color: #145599;
+  max-width: 296px;
+  width: 100%;
+  max-height: 44px;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-left: 1484px;
+}
+
+.toast__info {
+  padding-top: 10px;
+  max-height: 44px;
+  height: 100%;
+}
+
+.toast__text {
+  color: white;
+  padding-left: 16px;
+}
+
+.toast__svg {
+  margin-left: 120px;
+}

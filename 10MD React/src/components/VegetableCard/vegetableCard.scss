@@ -1,0 +1,25 @@
+.vegetable-card {
+  border: 1px solid;
+  margin: 5px 10px 5px 5px;
+  max-width: 400px;
+  height: 200px;
+  width: 100%;
+}
+
+.vegetable-card__heading {
+  padding-right: 240px;
+}
+
+.vegetable-card__desc {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.vegetable-card__unavailable {
+  border: 1px solid;
+  margin: 5px 10px 5px 5px;
+  max-width: 300px;
+  width: 100%;
+  padding-top: 85px;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+.Cards {
+
+}
+
+.Cards__Buttons {
+
+}
+
+.Cards__Button {
+
+}
+
+.Cards__Block {
+  display: flex;
+  gap: 15px;
+
+}
+
+.Cards__Block--Card {
+  padding: 5px 10px 5px 12px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.Cards__Block--Button {
+  margin-left: 100px;
+  color: red;
+  border: none;
+  background: none;
+
+
+  &:hover {
+    cursor: pointer;
+  }
+}

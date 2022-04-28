@@ -1,0 +1,26 @@
+.Text {
+  padding: 5px;
+  max-height: 100px;
+  height: 100%;
+  max-width: 220px;
+  width: 100%;
+
+  background: #FFFFFF;
+  display: flex;
+}
+
+.TextInput {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.TextButton {
+  background: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.TextSpan {
+  margin-left: 30px;
+  font-size: 40px;
+}

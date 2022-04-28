@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-family: 'Pacifico', cursive;
+  padding: 30px;
+}
+
+section {
+  margin-top: 15px;
+}
+
+.Section--Calc {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Section--Text {
+  display: flex;
+}

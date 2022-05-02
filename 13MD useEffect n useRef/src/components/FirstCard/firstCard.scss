@@ -1,0 +1,43 @@
+.sector {
+  padding: 50px 30px;
+
+}
+
+.box {
+  border: 1px solid black;
+  max-width: 700px;
+  width: 100%;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+
+.ButtonBox {
+  padding: 10px 0;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+  }
+}
+
+.InputBox {
+  padding: 10px 0;
+
+}
+
+.input {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}

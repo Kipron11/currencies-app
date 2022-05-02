@@ -1,0 +1,50 @@
+.sector {
+  padding: 50px 30px;
+
+}
+
+.box {
+  border: 1px solid black;
+  max-width: 700px;
+  width: 100%;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+
+.button {
+  padding: 5px 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  min-width: 70px;
+  max-width: 150px;
+  max-height: 100px;
+  min-height: 50px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+  }
+}
+
+.input {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.countx2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  min-width: 70px;
+  max-width: 150px;
+  max-height: 100px;
+  min-height: 50px;
+
+}

@@ -1,0 +1,16 @@
+.Navi{
+  padding: 30px 50px;
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+
+}
+
+.active{
+  transition: 0.5s;
+  color:yellowgreen ;
+}
+
+.TopSection{
+background: #1a1a1a;
+}

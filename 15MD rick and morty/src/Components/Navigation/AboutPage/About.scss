@@ -1,0 +1,16 @@
+.SectionAbout{
+  display: flex;
+  justify-content: center;
+  color: #651FFF;
+  font-size:50px;
+
+  :hover{
+    transition: 0.75s;
+    color: yellowgreen;
+    font-size: 200px;
+    border: 1px solid whitesmoke;
+    border-radius: 20%;
+    padding: 50px;
+  }
+
+}

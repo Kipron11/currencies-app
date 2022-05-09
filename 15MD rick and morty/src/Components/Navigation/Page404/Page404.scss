@@ -1,0 +1,23 @@
+.Section404{
+display: flex;
+  justify-content: center;
+}
+
+.page404{
+  padding: 15px 25px;
+border: 2.5px solid whitesmoke;
+  border-radius: 5px;
+  color: whitesmoke;
+
+}
+
+.btn{
+background: transparent;
+  color: whitesmoke;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+:hover {
+  color: #651FFF;
+  transition:0.5s;
+}
+}

@@ -1,0 +1,30 @@
+.navigation{
+  background: #282c34;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  min-height: 100px;
+  align-items: center;
+}
+
+
+.link{
+  text-decoration: none;
+  color: purple;
+  transition: 0.5s;
+  font-weight:500;
+  &:hover{
+    font-weight:900;
+    color: #e000e0;
+  }
+}
+
+.link--active{
+  transition: 0.5s;
+  color: yellowgreen;
+  font-weight:500;
+&:hover{
+  color: #c1ff32;
+  font-weight:900;
+}
+}

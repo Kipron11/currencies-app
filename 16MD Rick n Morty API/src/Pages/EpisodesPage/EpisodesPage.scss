@@ -1,0 +1,41 @@
+.SectionEpisodes{
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.Episode-search__box {
+  margin-top: 30px;
+}
+
+.Episode-search__input {
+  max-width: 400px;
+  width: 100%;
+  margin-right: 5px;
+}
+
+.BlockEpisodes{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  }
+
+.CardEpisodes {
+  display: flex;
+  max-width: 700px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.avatar {
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+}
+
+.CardEpisodes--BlockInfo {
+padding: 10px;
+}

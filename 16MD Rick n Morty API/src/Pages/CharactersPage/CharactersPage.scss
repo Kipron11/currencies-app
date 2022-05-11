@@ -1,0 +1,103 @@
+.SectionCharacters{
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.BlockCharacters{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  border-top: 3px solid black;
+}
+
+.CardCharacters{
+  margin-top: 15px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 7px;
+  background: #282c34;
+
+  color: purple;
+  transition: 0.5s;
+  font-weight:500;
+  &:hover{
+    font-weight:900;
+    color: #e000e0;
+  }
+  .Avatar{
+    border-radius: 7px;
+  }
+}
+
+.Button{
+  border: 2px solid black;
+  border-radius: 7px;
+  background: transparent;
+  color: purple;
+  transition: 0.7s;
+  font-weight:500;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  &:hover{
+    font-weight:900;
+    color: yellowgreen;
+    border: 2px solid yellowgreen;
+  }
+}
+
+.Characters__Buttons--Status{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 10px;
+
+  .Button{
+    border: 3px solid purple;
+    border-radius: 7px;
+    background: #282c34;
+    color: purple;
+    transition: 0.7s;
+    font-size: 30px;
+    font-weight:500;
+    width: 200px;
+    height: 90px;
+    box-shadow: 1px 1px 60px rgba(128, 0 ,128, 0.3);
+    &:hover{
+      font-weight:600;
+      color: yellowgreen;
+      border: 5px solid yellowgreen;
+    }
+  }
+  .Button--Alive{
+    border: 3px solid springgreen;
+    color: springgreen;
+
+    &:hover{
+      color: mediumspringgreen;
+      border: 5px solid mediumspringgreen;
+    }
+  }
+
+  .Button--Dead{
+    border: 3px solid red;
+    color: red;
+
+    &:hover{
+      color: darkred;
+      border: 5px solid darkred;
+    }
+  }
+
+  .Button--Unknown{
+    border: 3px solid grey;
+    color: grey;
+
+    &:hover{
+      color: darkgray;
+      border: 5px solid darkgray;
+    }
+  }
+}

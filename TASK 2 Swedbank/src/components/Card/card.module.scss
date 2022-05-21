@@ -1,0 +1,36 @@
+@import "../Styles/styles.module";
+
+.card_cover {
+  background: url("https://www.swedbank.lv/img/private/d2d/cards/debit/826x523-debit-card.png");
+  background-repeat: no-repeat;
+  width: 826px;
+  height: 532px;
+  margin-top: 50px;
+  margin-left: 13%;
+  padding: 250px 40px 0 40px;
+}
+
+.card_number {
+  color: white;
+  font-weight: 300;
+  font-size: 55px;
+  user-select: none;
+}
+
+.card_info{
+
+  p{
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+
+  }
+  user-select: none;
+}
+
+.card_info_tag{
+  color: white;
+  display: flex;
+}
+
+

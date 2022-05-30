@@ -1,0 +1,22 @@
+
+.button {
+  font-size: 24px;
+  font-weight: 600;
+  min-height: 40px;
+  min-width: 100px;
+  border: none;
+  color: #212121;
+  border-radius: 6px;
+  padding: 10px;
+  background-color: rgb(211, 193, 127);
+  box-shadow: 2px 2px 2px rgb(232, 213, 140);
+  transition: 0.375s;
+
+  &:hover {
+    background-color: rgb(232, 213, 140);
+    box-shadow: 3px 3px 15px rgb(232, 213, 140);
+  }
+}
+
+
+

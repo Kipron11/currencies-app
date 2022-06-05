@@ -1,0 +1,28 @@
+.adder-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.adder-form__form {
+  display: flex;
+  gap: 20px;
+}
+
+.adder-form__form--input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.adder-form__form--select {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.adder-form__form--button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}

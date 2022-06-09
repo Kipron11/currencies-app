@@ -1,8 +1,10 @@
 import {createStore} from "vuex";
-import joke from "./modules/joke";
+import jokes from "./modules/jokes";
+
+
 
 export default createStore({
   modules: {
-    joke,
+    jokes,
   },
 });

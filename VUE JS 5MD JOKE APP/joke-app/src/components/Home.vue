@@ -1,25 +1,28 @@
 <template>
   <div>ti gye</div>
-  {{ jokesCount }}
-  <div class="Home__Jokes" v-for="jokes in allJokes" :key="joke.id">
-    <h1>{{ jokes.id}}</h1>
-    <h2>{{ jokes.setup }}</h2>
-    <h2>{{ jokes.type }}</h2>
-    <h2>{{ result.jokes.alert}}</h2>
+  <div class="Home__Jokes" v-for="{joke, id} in jokes" :key="id">
+    <h1>{{ joke}}</h1>
+    <h2>{{ joke }}</h2>
+    <h2>{{ joke }}</h2>
   </div>
 </template>
 
-<script>
-import { mapGetters, mapActions } from "vuex";
+<script lang="ts">
+import { mapGetters, mapActions, mapState } from "vuex";
 import {defineComponent} from "vue";
 
 export default defineComponent( {
   name: "Home",
-  computed: mapGetters(["allJokes", "jokesCount"]),
+  computed:{
+    ...mapState('jokes',{
+      jokes: (state) => state.data.jokes
+    }),
+     ...mapGetters("jokes",["result"]),
+    },
   methods:mapActions(["fetchJokes"]),
 
-  async mounted() {
-    this.fetchJokes();
+  mounted() {
+    this.fetchJokes(4,3);
   },
 });
 </script>

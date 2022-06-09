@@ -1,5 +1,12 @@
 import axios from "axios";
-import type {Commit} from "vuex";
+import type {ActionContext, Commit} from "vuex";
+import type {RootState} from "@/stores/ApiStore";
+
+export interface jokesState {
+  data : result;
+}
+
+type Context = ActionContext<jokesState, RootState>;
 
 export type oneJoke = {
   'category': string,
@@ -26,26 +33,20 @@ export type result = {
 }
 
 
-
-
 export default {
   state: {
-    jokes: [],
+  data: {} as result,
   },
+
   getters: {
-    allJokes(state : {jokes : result}) {
-      return state.jokes.jokes;
-    },
-    jokesCount(state : {jokes : result}) {
-      return state.jokes.amount;
-    },
+    result: (state: jokesState) => state.data,
   },
   actions: {
-    async fetchJokes(amount = 3, range: number , {commit} : {commit:Commit}) {
-      try{
+    async fetchJokes(ctx:Context ,amount = 3, range: number){
+      try {
       const res = await axios.get(
-        "https://v2.jokeapi.dev/joke/Any?idRange=" + range + "&amount=" + amount);
-        commit("updateJokes", res.data);
+        `https://v2.jokeapi.dev/joke/Any?idRange=${range}&amount=${amount}`);
+        ctx.commit("updateJokes", res.data);
     }
       catch (error){
         console.log(error)
@@ -53,8 +54,8 @@ export default {
     },
   },
   mutations: {
-    updateJokes(state:{jokes: result}, jokes:result) {
-      state.jokes = jokes;
+    updateJokes(state:jokesState, data:result) {
+      state.data = data;
     },
   },
 };

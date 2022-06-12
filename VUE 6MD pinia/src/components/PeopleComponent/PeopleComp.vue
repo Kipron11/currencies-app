@@ -17,11 +17,11 @@
         {{ character.name }}
       </div>
     </div>
-    <div>
-      <button @click="this.pageNum--" :disabled="this.pageNum === 1">
+    <div class="char--filterButtons">
+      <button class="btn" @click="this.pageNum--" :disabled="this.pageNum === 1">
         Prev
       </button>
-      <button @click="this.pageNum++">Next</button>
+      <button class="btn" @click="this.pageNum++">Next</button>
     </div>
   </section>
 </template>
@@ -82,5 +82,12 @@ export default defineComponent({
   max-width: 500px;
   min-width: 300px;
   border-radius: 5px;
+}
+
+.char--filterButtons{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding:10px;
 }
 </style>

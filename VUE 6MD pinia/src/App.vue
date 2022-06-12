@@ -28,6 +28,11 @@ import { RouterLink, RouterView } from "vue-router";
   font-weight: bold;
 }
 
+a {
+  text-decoration: none;
+  font-size: 23px;
+}
+
 .bg-image {
   background-image: url("https://www.myfreewalls.com/public/uploads/preview/star-wars-art-4k-wallpaper-background-11624139063guvhmqtpit.jpg");
 
@@ -77,5 +82,31 @@ import { RouterLink, RouterView } from "vue-router";
   padding: 20px;
   text-align: center;
   border-radius: 5px;
+}
+
+.btn {
+  padding: 3px;
+  background: transparent;
+  border: 3px solid white;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.btn:hover {
+  border: 3px solid #e48e3b;
+  color: #eebe97;
+}
+
+.btn:disabled {
+  border: 3px solid #1a1a1a;
+  color: #656565;
+}
+.header__nav--link {
+  color: #e48e3b;
+  transition: 0.375s;
+}
+.header__nav--link:active {
+  color: white;
 }
 </style>

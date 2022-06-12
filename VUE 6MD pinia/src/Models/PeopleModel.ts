@@ -15,9 +15,9 @@ export type PeopleResultsModel = {
   birth_year: string;
   gender: string;
   homeworld: string;
-  films: [""];
+  films: [string];
   species: [];
-  vehicles: [""];
+  vehicles: [string];
   created: string;
   edited: string;
   url: string;

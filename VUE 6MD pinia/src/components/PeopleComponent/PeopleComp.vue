@@ -1,10 +1,21 @@
 <template>
   <section>
     <div>
-      <input v-model="inputValue" placeholder="Type Name here.." @keydown="searchCharacter(inputValue)" />
+      <input
+        class="char--input"
+        v-model="inputValue"
+        placeholder="Type Name here.."
+        @keydown="searchCharacter(inputValue)"
+      />
     </div>
-    <div v-for="character in getPeople" :key="character.id">
-      {{ character.name }}
+    <div class="char--card">
+      <div
+        class="char--card--info"
+        v-for="character in getPeople"
+        :key="character.id"
+      >
+        {{ character.name }}
+      </div>
     </div>
     <div>
       <button @click="this.pageNum--" :disabled="this.pageNum === 1">
@@ -44,4 +55,32 @@ export default defineComponent({
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+.char--input {
+  height: 50px;
+  padding: 10px;
+  border: white 1px solid;
+  max-width: 500px;
+  min-width: 300px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  background: transparent;
+  font-size: 24px;
+  color: whitesmoke;
+}
+.char--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.char--card--info {
+  height: 50px;
+  padding: 10px;
+  border: white 1px solid;
+  max-width: 500px;
+  min-width: 300px;
+  border-radius: 5px;
+}
+</style>

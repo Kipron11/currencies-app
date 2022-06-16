@@ -1,0 +1,8 @@
+<section class="jokes-section">
+    <p class="jokes__heading">Create a joke</p>
+    <app-joke-form-component
+      (addJokeEvent)="addJoke($event)"></app-joke-form-component>
+    <app-joke-list-component
+      [jokeStorage]="jokeStorage"
+      (deleteJokeEvent)="deleteJoke($event)"></app-joke-list-component>
+</section>

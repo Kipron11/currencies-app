@@ -60,6 +60,9 @@ const GameForm = () => {
       />
       <Buttons action={onActionSelected} />
       <Winner text={winner} />
+
+      <img className="Courage--img" src="https://tattoo-stickers.ru/46880/kuraj-truslivyy-pes.jpg" alt="Courage the dog" />
+      <img className="Courage--shadow--img" src="https://www.pngimages.pics/images/quotes/english/general/courage-the-cowardly-dog-hd-52650-223680.png" alt="Courage shadow" />
     </div>
   );
 };
